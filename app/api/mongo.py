@@ -20,7 +20,7 @@ def get_all_users():
     return jsonify({'output': results})
 
 
-@app.route('/users', methods=["GET"])
+@app.route('/users/<name>', methods=["GET"])
 def get_one_user(name):
     users_collection = mongo.db.users
     
@@ -29,7 +29,7 @@ def get_one_user(name):
     if user:
         results = ({"name": user["name"], "age": user["age"]})
     else:
-        resusts = "User not found"
+        results = "User not found"
     
     return jsonify({'output': results})
 
