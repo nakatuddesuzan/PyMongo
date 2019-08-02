@@ -1,4 +1,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/86071e30b5ee27defdd5/maintainability)](https://codeclimate.com/github/nakatuddesuzan/pymongo-flask-app/maintainability)
+[![Build Status](https://travis-ci.com/nakatuddesuzan/PyMongo.svg?branch=master)](https://travis-ci.com/nakatuddesuzan/PyMongo)
 
 # pymongo-flask-app
 

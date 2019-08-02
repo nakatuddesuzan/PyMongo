@@ -13,7 +13,7 @@ class BaseConfig(object):
 
 class TestingConfig(BaseConfig):
     """Configurations for Testing, with a separate test database."""
-    MONGO_URI = ''
+    MONGO_URI = 'mongodb://localhost/pymongo-test'
     TESTING = True
     DEBUG = True
 
